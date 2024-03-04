@@ -7,23 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F312AC602B92146F005B252A /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = F312AC5F2B92146F005B252A /* DGCharts */; };
+		F312AC642B921555005B252A /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = F312AC632B921555005B252A /* DGCharts */; };
+		F312AC692B92165C005B252A /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32D49CF2B7DFCDE007CD67A /* Charts.framework */; };
+		F32D49CE2B7DF011007CD67A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D49CD2B7DF011007CD67A /* ChangePasswordVC.swift */; };
+		F32D49D22B7E0411007CD67A /* PortfolioTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D49D12B7E0411007CD67A /* PortfolioTVC.swift */; };
+		F32D49D42B7E4B87007CD67A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32D49D32B7E4B87007CD67A /* Token.swift */; };
+		F330370E2B7CA15C008B2C77 /* finance.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F330370D2B7CA15C008B2C77 /* finance.sqlite */; };
+		F345CE3C2B7DE0B20010713B /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345CE3B2B7DE0B20010713B /* SessionManager.swift */; };
+		F37002262B7F892700E97F8F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F37002252B7F892700E97F8F /* Roboto-Medium.ttf */; };
 		F371E11B2B7A42DB003A193D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E11A2B7A42DB003A193D /* AppDelegate.swift */; };
 		F371E11D2B7A42DB003A193D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E11C2B7A42DB003A193D /* SceneDelegate.swift */; };
-		F371E11F2B7A42DB003A193D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E11E2B7A42DB003A193D /* ViewController.swift */; };
+		F371E11F2B7A42DB003A193D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E11E2B7A42DB003A193D /* MainVC.swift */; };
 		F371E1222B7A42DB003A193D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F371E1202B7A42DB003A193D /* Main.storyboard */; };
 		F371E1242B7A42DD003A193D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F371E1232B7A42DD003A193D /* Assets.xcassets */; };
 		F371E1272B7A42DD003A193D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F371E1252B7A42DD003A193D /* LaunchScreen.storyboard */; };
+		F371E1312B7A487A003A193D /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E1302B7A487A003A193D /* ListViewCell.swift */; };
+		F371E1332B7A4892003A193D /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371E1322B7A4892003A193D /* GridViewCell.swift */; };
+		F37C99F02B8883F100FC4E30 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C99EF2B8883F100FC4E30 /* Exchange.swift */; };
+		F37C99F22B88853800FC4E30 /* AlSatDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C99F12B88853800FC4E30 /* AlSatDaoRepo.swift */; };
+		F37C99F42B88868300FC4E30 /* AlSatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C99F32B88868300FC4E30 /* AlSatVM.swift */; };
+		F37FCEAE2B8398B2003F0044 /* FavoritesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37FCEAD2B8398B2003F0044 /* FavoritesTVC.swift */; };
+		F39F3EDE2B7CE64600BB25EA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F39F3EDD2B7CE64600BB25EA /* Alamofire */; };
+		F3B1865F2B7B7CDF00C06C25 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1865E2B7B7CC400C06C25 /* libsqlite3.tbd */; };
+		F3B1866B2B7B7D6400C06C25 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B186632B7B7D6300C06C25 /* FMDatabasePool.m */; };
+		F3B1866C2B7B7D6400C06C25 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B186642B7B7D6300C06C25 /* FMDatabase.m */; };
+		F3B1866D2B7B7D6400C06C25 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B186672B7B7D6400C06C25 /* FMDatabaseAdditions.m */; };
+		F3B1866E2B7B7D6400C06C25 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B186692B7B7D6400C06C25 /* FMResultSet.m */; };
+		F3B1866F2B7B7D6400C06C25 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1866A2B7B7D6400C06C25 /* FMDatabaseQueue.m */; };
+		F3B186712B7B7EBC00C06C25 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186702B7B7EBC00C06C25 /* MainVM.swift */; };
+		F3B186732B7B7EE400C06C25 /* SignInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186722B7B7EE400C06C25 /* SignInVM.swift */; };
+		F3B186752B7B7EF100C06C25 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186742B7B7EF100C06C25 /* SignUpVM.swift */; };
+		F3B186772B7B7FF000C06C25 /* CurrencyDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186762B7B7FF000C06C25 /* CurrencyDaoRepo.swift */; };
+		F3B1867B2B7B916500C06C25 /* PortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1867A2B7B916500C06C25 /* PortfolioVC.swift */; };
+		F3B1867D2B7B91C600C06C25 /* PortfolioDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1867C2B7B91C600C06C25 /* PortfolioDetailVC.swift */; };
+		F3B1867F2B7B91E800C06C25 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1867E2B7B91E800C06C25 /* ProfileVC.swift */; };
+		F3B186812B7B920E00C06C25 /* UserMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186802B7B920E00C06C25 /* UserMainVC.swift */; };
+		F3B186832B7B925D00C06C25 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186822B7B925D00C06C25 /* FavoritesVC.swift */; };
+		F3B186872B7B959700C06C25 /* PortfolioVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186862B7B959700C06C25 /* PortfolioVM.swift */; };
+		F3B186892B7B95B700C06C25 /* PortfolioDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B186882B7B95B700C06C25 /* PortfolioDetailVM.swift */; };
+		F3B1868B2B7B95D000C06C25 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1868A2B7B95D000C06C25 /* ProfileVM.swift */; };
+		F3B1868D2B7B95EE00C06C25 /* UserMainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1868C2B7B95EE00C06C25 /* UserMainVM.swift */; };
+		F3B1868F2B7B960500C06C25 /* FavoritesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1868E2B7B960500C06C25 /* FavoritesVM.swift */; };
+		F3B251EC2B906BA1002F8B2E /* PortfolioDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B251EB2B906BA1002F8B2E /* PortfolioDaoRepo.swift */; };
+		F3B3DE6E2B7A68D4001646E8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DE6D2B7A68D4001646E8 /* SignInVC.swift */; };
+		F3BCB4C72B848A45004CE45A /* UserListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BCB4C62B848A45004CE45A /* UserListViewCell.swift */; };
+		F3BCB4C92B848A99004CE45A /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BCB4C82B848A99004CE45A /* UserCollectionViewCell.swift */; };
+		F3CC62682B7C8B000084C428 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F3CC62672B7C8B000084C428 /* RxCocoa */; };
+		F3DEF5772B8335250088E8AA /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = F3DEF5762B8335250088E8AA /* DGCharts */; };
+		F3E886C12B7B51E40053E542 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E886C02B7B51E40053E542 /* SignUpVC.swift */; };
+		F3E886C72B7B5BF60053E542 /* Kurlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E886C62B7B5BF60053E542 /* Kurlar.swift */; };
+		F3E886CB2B7B5C320053E542 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E886CA2B7B5C320053E542 /* User.swift */; };
+		F3E886CD2B7B5C560053E542 /* UserDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E886CC2B7B5C560053E542 /* UserDaoRepo.swift */; };
+		F3E886D22B7B5DBE0053E542 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F3E886D12B7B5DBE0053E542 /* RxSwift */; };
+		F3E886DA2B7B5E060053E542 /* HttpConn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E886D92B7B5E060053E542 /* HttpConn.swift */; };
+		F3E89D942B8728FF00415F7B /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E89D932B8728FF00415F7B /* Favorites.swift */; };
+		F3E89D982B877F3B00415F7B /* AlimSatimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E89D972B877F3B00415F7B /* AlimSatimVC.swift */; };
+		F3F1A9252B84D8DA00856075 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1A9242B84D8DA00856075 /* TabBarController.swift */; };
+		F3F1A9272B84DCF300856075 /* TabBarWithCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1A9262B84DCF300856075 /* TabBarWithCorners.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F312AC682B9215BF005B252A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F371E1172B7A42DB003A193D /* FinanceProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32D49CD2B7DF011007CD67A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		F32D49CF2B7DFCDE007CD67A /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		F32D49D12B7E0411007CD67A /* PortfolioTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTVC.swift; sourceTree = "<group>"; };
+		F32D49D32B7E4B87007CD67A /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F330370D2B7CA15C008B2C77 /* finance.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = finance.sqlite; sourceTree = "<group>"; };
+		F345CE3B2B7DE0B20010713B /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		F37002252B7F892700E97F8F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		F371E1172B7A42DB003A193D /* FinanceProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FinanceProject1.app; path = "/Users/fatihemresarman/Documents/Yazılım/FinanceProject/build/Debug-iphoneos/FinanceProject1.app"; sourceTree = "<absolute>"; };
 		F371E11A2B7A42DB003A193D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F371E11C2B7A42DB003A193D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F371E11E2B7A42DB003A193D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F371E11E2B7A42DB003A193D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F371E1212B7A42DB003A193D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F371E1232B7A42DD003A193D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F371E1262B7A42DD003A193D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F371E1282B7A42DD003A193D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F371E1302B7A487A003A193D /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		F371E1322B7A4892003A193D /* GridViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		F37C99EF2B8883F100FC4E30 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		F37C99F12B88853800FC4E30 /* AlSatDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlSatDaoRepo.swift; sourceTree = "<group>"; };
+		F37C99F32B88868300FC4E30 /* AlSatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlSatVM.swift; sourceTree = "<group>"; };
+		F37FCEAD2B8398B2003F0044 /* FavoritesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTVC.swift; sourceTree = "<group>"; };
+		F3B1865E2B7B7CC400C06C25 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F3B186602B7B7D6300C06C25 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F3B186612B7B7D6300C06C25 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F3B186622B7B7D6300C06C25 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F3B186632B7B7D6300C06C25 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F3B186642B7B7D6300C06C25 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F3B186652B7B7D6300C06C25 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F3B186662B7B7D6400C06C25 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F3B186672B7B7D6400C06C25 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F3B186682B7B7D6400C06C25 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F3B186692B7B7D6400C06C25 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F3B1866A2B7B7D6400C06C25 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F3B186702B7B7EBC00C06C25 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		F3B186722B7B7EE400C06C25 /* SignInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVM.swift; sourceTree = "<group>"; };
+		F3B186742B7B7EF100C06C25 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		F3B186762B7B7FF000C06C25 /* CurrencyDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDaoRepo.swift; sourceTree = "<group>"; };
+		F3B1867A2B7B916500C06C25 /* PortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioVC.swift; sourceTree = "<group>"; };
+		F3B1867C2B7B91C600C06C25 /* PortfolioDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDetailVC.swift; sourceTree = "<group>"; };
+		F3B1867E2B7B91E800C06C25 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F3B186802B7B920E00C06C25 /* UserMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMainVC.swift; sourceTree = "<group>"; };
+		F3B186822B7B925D00C06C25 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		F3B186862B7B959700C06C25 /* PortfolioVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioVM.swift; sourceTree = "<group>"; };
+		F3B186882B7B95B700C06C25 /* PortfolioDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDetailVM.swift; sourceTree = "<group>"; };
+		F3B1868A2B7B95D000C06C25 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		F3B1868C2B7B95EE00C06C25 /* UserMainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMainVM.swift; sourceTree = "<group>"; };
+		F3B1868E2B7B960500C06C25 /* FavoritesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVM.swift; sourceTree = "<group>"; };
+		F3B251EB2B906BA1002F8B2E /* PortfolioDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDaoRepo.swift; sourceTree = "<group>"; };
+		F3B3DE6D2B7A68D4001646E8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		F3BCB4C62B848A45004CE45A /* UserListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewCell.swift; sourceTree = "<group>"; };
+		F3BCB4C82B848A99004CE45A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		F3E886C02B7B51E40053E542 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F3E886C62B7B5BF60053E542 /* Kurlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kurlar.swift; sourceTree = "<group>"; };
+		F3E886CA2B7B5C320053E542 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3E886CC2B7B5C560053E542 /* UserDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDaoRepo.swift; sourceTree = "<group>"; };
+		F3E886D92B7B5E060053E542 /* HttpConn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConn.swift; sourceTree = "<group>"; };
+		F3E886EB2B7B61950053E542 /* FinanceProject1-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FinanceProject1-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3E89D932B8728FF00415F7B /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		F3E89D972B877F3B00415F7B /* AlimSatimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimSatimVC.swift; sourceTree = "<group>"; };
+		F3F1A9242B84D8DA00856075 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F3F1A9262B84DCF300856075 /* TabBarWithCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +149,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CC62682B7C8B000084C428 /* RxCocoa in Frameworks */,
+				F312AC692B92165C005B252A /* Charts.framework in Frameworks */,
+				F39F3EDE2B7CE64600BB25EA /* Alamofire in Frameworks */,
+				F3B1865F2B7B7CDF00C06C25 /* libsqlite3.tbd in Frameworks */,
+				F3DEF5772B8335250088E8AA /* DGCharts in Frameworks */,
+				F312AC602B92146F005B252A /* DGCharts in Frameworks */,
+				F312AC642B921555005B252A /* DGCharts in Frameworks */,
+				F3E886D22B7B5DBE0053E542 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,16 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				F371E1192B7A42DB003A193D /* FinanceProject1 */,
-				F371E1182B7A42DB003A193D /* Products */,
+				F3B1865D2B7B7CC400C06C25 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		F371E1182B7A42DB003A193D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F371E1172B7A42DB003A193D /* FinanceProject1.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F371E1192B7A42DB003A193D /* FinanceProject1 */ = {
@@ -58,13 +176,161 @@
 			children = (
 				F371E11A2B7A42DB003A193D /* AppDelegate.swift */,
 				F371E11C2B7A42DB003A193D /* SceneDelegate.swift */,
-				F371E11E2B7A42DB003A193D /* ViewController.swift */,
+				F371E1452B7A5561003A193D /* UI */,
+				F3E886C22B7B5BA00053E542 /* Data */,
+				F3E886BD2B7B3CD70053E542 /* Fonts */,
 				F371E1202B7A42DB003A193D /* Main.storyboard */,
 				F371E1232B7A42DD003A193D /* Assets.xcassets */,
 				F371E1252B7A42DD003A193D /* LaunchScreen.storyboard */,
 				F371E1282B7A42DD003A193D /* Info.plist */,
+				F3B186662B7B7D6400C06C25 /* FMDatabase.h */,
+				F3B186642B7B7D6300C06C25 /* FMDatabase.m */,
+				F3B186622B7B7D6300C06C25 /* FMDatabaseAdditions.h */,
+				F3B186672B7B7D6400C06C25 /* FMDatabaseAdditions.m */,
+				F3B186652B7B7D6300C06C25 /* FMDatabasePool.h */,
+				F3B186632B7B7D6300C06C25 /* FMDatabasePool.m */,
+				F3B186602B7B7D6300C06C25 /* FMDatabaseQueue.h */,
+				F3B1866A2B7B7D6400C06C25 /* FMDatabaseQueue.m */,
+				F3B186682B7B7D6400C06C25 /* FMDB.h */,
+				F3B186612B7B7D6300C06C25 /* FMResultSet.h */,
+				F3B186692B7B7D6400C06C25 /* FMResultSet.m */,
+				F3E886EB2B7B61950053E542 /* FinanceProject1-Bridging-Header.h */,
+				F330370D2B7CA15C008B2C77 /* finance.sqlite */,
 			);
 			path = FinanceProject1;
+			sourceTree = "<group>";
+		};
+		F371E1452B7A5561003A193D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1A9232B84D8B200856075 /* Controllers */,
+				F371E1482B7A557A003A193D /* Views */,
+				F371E1472B7A5572003A193D /* Tables */,
+				F371E1462B7A5569003A193D /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F371E1462B7A5569003A193D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3B186702B7B7EBC00C06C25 /* MainVM.swift */,
+				F3B186722B7B7EE400C06C25 /* SignInVM.swift */,
+				F3B186742B7B7EF100C06C25 /* SignUpVM.swift */,
+				F3B186862B7B959700C06C25 /* PortfolioVM.swift */,
+				F3B186882B7B95B700C06C25 /* PortfolioDetailVM.swift */,
+				F3B1868A2B7B95D000C06C25 /* ProfileVM.swift */,
+				F3B1868C2B7B95EE00C06C25 /* UserMainVM.swift */,
+				F3B1868E2B7B960500C06C25 /* FavoritesVM.swift */,
+				F37C99F32B88868300FC4E30 /* AlSatVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F371E1472B7A5572003A193D /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				F371E1322B7A4892003A193D /* GridViewCell.swift */,
+				F371E1302B7A487A003A193D /* ListViewCell.swift */,
+				F32D49D12B7E0411007CD67A /* PortfolioTVC.swift */,
+				F37FCEAD2B8398B2003F0044 /* FavoritesTVC.swift */,
+				F3BCB4C62B848A45004CE45A /* UserListViewCell.swift */,
+				F3BCB4C82B848A99004CE45A /* UserCollectionViewCell.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		F371E1482B7A557A003A193D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F371E11E2B7A42DB003A193D /* MainVC.swift */,
+				F3B3DE6D2B7A68D4001646E8 /* SignInVC.swift */,
+				F3E886C02B7B51E40053E542 /* SignUpVC.swift */,
+				F3B1867A2B7B916500C06C25 /* PortfolioVC.swift */,
+				F3B1867C2B7B91C600C06C25 /* PortfolioDetailVC.swift */,
+				F3B1867E2B7B91E800C06C25 /* ProfileVC.swift */,
+				F3B186802B7B920E00C06C25 /* UserMainVC.swift */,
+				F3B186822B7B925D00C06C25 /* FavoritesVC.swift */,
+				F32D49CD2B7DF011007CD67A /* ChangePasswordVC.swift */,
+				F3E89D972B877F3B00415F7B /* AlimSatimVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3B1865D2B7B7CC400C06C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32D49CF2B7DFCDE007CD67A /* Charts.framework */,
+				F3B1865E2B7B7CC400C06C25 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B186922B7B96B700C06C25 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		F3E886BD2B7B3CD70053E542 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F37002252B7F892700E97F8F /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F3E886C22B7B5BA00053E542 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F3B186922B7B96B700C06C25 /* FMDB */,
+				F3E886C52B7B5BDF0053E542 /* Repo */,
+				F3E886C42B7B5BD50053E542 /* Entity */,
+				F3E886C32B7B5BCC0053E542 /* ApiConnection */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F3E886C32B7B5BCC0053E542 /* ApiConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F3E886D92B7B5E060053E542 /* HttpConn.swift */,
+			);
+			path = ApiConnection;
+			sourceTree = "<group>";
+		};
+		F3E886C42B7B5BD50053E542 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F3E886C62B7B5BF60053E542 /* Kurlar.swift */,
+				F3E886CA2B7B5C320053E542 /* User.swift */,
+				F345CE3B2B7DE0B20010713B /* SessionManager.swift */,
+				F32D49D32B7E4B87007CD67A /* Token.swift */,
+				F3E89D932B8728FF00415F7B /* Favorites.swift */,
+				F37C99EF2B8883F100FC4E30 /* Exchange.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F3E886C52B7B5BDF0053E542 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				F3E886CC2B7B5C560053E542 /* UserDaoRepo.swift */,
+				F3B186762B7B7FF000C06C25 /* CurrencyDaoRepo.swift */,
+				F37C99F12B88853800FC4E30 /* AlSatDaoRepo.swift */,
+				F3B251EB2B906BA1002F8B2E /* PortfolioDaoRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		F3F1A9232B84D8B200856075 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1A9242B84D8DA00856075 /* TabBarController.swift */,
+				F3F1A9262B84DCF300856075 /* TabBarWithCorners.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +343,21 @@
 				F371E1132B7A42DB003A193D /* Sources */,
 				F371E1142B7A42DB003A193D /* Frameworks */,
 				F371E1152B7A42DB003A193D /* Resources */,
+				F312AC682B9215BF005B252A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FinanceProject1;
+			packageProductDependencies = (
+				F3E886D12B7B5DBE0053E542 /* RxSwift */,
+				F3CC62672B7C8B000084C428 /* RxCocoa */,
+				F39F3EDD2B7CE64600BB25EA /* Alamofire */,
+				F3DEF5762B8335250088E8AA /* DGCharts */,
+				F312AC5F2B92146F005B252A /* DGCharts */,
+				F312AC632B921555005B252A /* DGCharts */,
+			);
 			productName = FinanceProject1;
 			productReference = F371E1172B7A42DB003A193D /* FinanceProject1.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +374,7 @@
 				TargetAttributes = {
 					F371E1162B7A42DB003A193D = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -111,7 +387,12 @@
 				Base,
 			);
 			mainGroup = F371E10E2B7A42DB003A193D;
-			productRefGroup = F371E1182B7A42DB003A193D /* Products */;
+			packageReferences = (
+				F3E886CE2B7B5DBE0053E542 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F39F3EDC2B7CE64600BB25EA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F3DEF5752B8335250088E8AA /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = F371E10E2B7A42DB003A193D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,6 +406,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37002262B7F892700E97F8F /* Roboto-Medium.ttf in Resources */,
+				F330370E2B7CA15C008B2C77 /* finance.sqlite in Resources */,
 				F371E1272B7A42DD003A193D /* LaunchScreen.storyboard in Resources */,
 				F371E1242B7A42DD003A193D /* Assets.xcassets in Resources */,
 				F371E1222B7A42DB003A193D /* Main.storyboard in Resources */,
@@ -138,9 +421,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F371E11F2B7A42DB003A193D /* ViewController.swift in Sources */,
+				F37C99F42B88868300FC4E30 /* AlSatVM.swift in Sources */,
+				F371E1312B7A487A003A193D /* ListViewCell.swift in Sources */,
+				F371E1332B7A4892003A193D /* GridViewCell.swift in Sources */,
+				F3BCB4C92B848A99004CE45A /* UserCollectionViewCell.swift in Sources */,
+				F3B1867B2B7B916500C06C25 /* PortfolioVC.swift in Sources */,
+				F3E89D942B8728FF00415F7B /* Favorites.swift in Sources */,
+				F3E89D982B877F3B00415F7B /* AlimSatimVC.swift in Sources */,
+				F3B1866B2B7B7D6400C06C25 /* FMDatabasePool.m in Sources */,
+				F3B1866C2B7B7D6400C06C25 /* FMDatabase.m in Sources */,
+				F3B186832B7B925D00C06C25 /* FavoritesVC.swift in Sources */,
+				F3B1867F2B7B91E800C06C25 /* ProfileVC.swift in Sources */,
+				F371E11F2B7A42DB003A193D /* MainVC.swift in Sources */,
+				F37FCEAE2B8398B2003F0044 /* FavoritesTVC.swift in Sources */,
+				F3E886C12B7B51E40053E542 /* SignUpVC.swift in Sources */,
+				F3B1866E2B7B7D6400C06C25 /* FMResultSet.m in Sources */,
+				F3B186732B7B7EE400C06C25 /* SignInVM.swift in Sources */,
+				F37C99F22B88853800FC4E30 /* AlSatDaoRepo.swift in Sources */,
+				F345CE3C2B7DE0B20010713B /* SessionManager.swift in Sources */,
+				F3BCB4C72B848A45004CE45A /* UserListViewCell.swift in Sources */,
+				F3B1868B2B7B95D000C06C25 /* ProfileVM.swift in Sources */,
+				F32D49D42B7E4B87007CD67A /* Token.swift in Sources */,
+				F3B1868F2B7B960500C06C25 /* FavoritesVM.swift in Sources */,
+				F3B186872B7B959700C06C25 /* PortfolioVM.swift in Sources */,
+				F3B186812B7B920E00C06C25 /* UserMainVC.swift in Sources */,
+				F3E886DA2B7B5E060053E542 /* HttpConn.swift in Sources */,
+				F3E886CD2B7B5C560053E542 /* UserDaoRepo.swift in Sources */,
+				F3B3DE6E2B7A68D4001646E8 /* SignInVC.swift in Sources */,
+				F3B1868D2B7B95EE00C06C25 /* UserMainVM.swift in Sources */,
+				F3B1867D2B7B91C600C06C25 /* PortfolioDetailVC.swift in Sources */,
+				F3E886CB2B7B5C320053E542 /* User.swift in Sources */,
 				F371E11B2B7A42DB003A193D /* AppDelegate.swift in Sources */,
+				F3B186712B7B7EBC00C06C25 /* MainVM.swift in Sources */,
 				F371E11D2B7A42DB003A193D /* SceneDelegate.swift in Sources */,
+				F3B1866F2B7B7D6400C06C25 /* FMDatabaseQueue.m in Sources */,
+				F32D49D22B7E0411007CD67A /* PortfolioTVC.swift in Sources */,
+				F3E886C72B7B5BF60053E542 /* Kurlar.swift in Sources */,
+				F3F1A9272B84DCF300856075 /* TabBarWithCorners.swift in Sources */,
+				F3B251EC2B906BA1002F8B2E /* PortfolioDaoRepo.swift in Sources */,
+				F3B186752B7B7EF100C06C25 /* SignUpVM.swift in Sources */,
+				F3B1866D2B7B7D6400C06C25 /* FMDatabaseAdditions.m in Sources */,
+				F3B186892B7B95B700C06C25 /* PortfolioDetailVM.swift in Sources */,
+				F37C99F02B8883F100FC4E30 /* Exchange.swift in Sources */,
+				F3F1A9252B84D8DA00856075 /* TabBarController.swift in Sources */,
+				F3B186772B7B7FF000C06C25 /* CurrencyDaoRepo.swift in Sources */,
+				F32D49CE2B7DF011007CD67A /* ChangePasswordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MR8M57SP95;
@@ -308,6 +634,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatihemre.FinanceProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FinanceProject1/FinanceProject1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +646,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MR8M57SP95;
@@ -336,6 +665,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatihemre.FinanceProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FinanceProject1/FinanceProject1-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +693,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F39F3EDC2B7CE64600BB25EA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		F3DEF5752B8335250088E8AA /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		F3E886CE2B7B5DBE0053E542 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F312AC5F2B92146F005B252A /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DEF5752B8335250088E8AA /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		F312AC632B921555005B252A /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DEF5752B8335250088E8AA /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		F39F3EDD2B7CE64600BB25EA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39F3EDC2B7CE64600BB25EA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F3CC62672B7C8B000084C428 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E886CE2B7B5DBE0053E542 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F3DEF5762B8335250088E8AA /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DEF5752B8335250088E8AA /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		F3E886D12B7B5DBE0053E542 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E886CE2B7B5DBE0053E542 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F371E10F2B7A42DB003A193D /* Project object */;
 }
